@@ -134,13 +134,13 @@ const turnoMaquina = (puntosMinimos) => {
 
   setTimeout(() => {
     if (puntosMaquina === puntosMinimos) {
-      console.log("Nadie gana");
+      alert("Nadie gana");
     } else if (puntosMinimos > 21) {
-      console.log("La máquina gana");
+      alert("La máquina gana");
     } else if (puntosMaquina > 21) {
-      console.log("Jugador gana");
+      alert("El Jugador gana");
     } else {
-      console.log("La máquina gana");
+      alert("La máquina gana");
     }
   }, 100);
 };
